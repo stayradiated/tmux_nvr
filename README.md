@@ -30,13 +30,13 @@ Notice most of the bindings emulate vim cursor movements.
   prompts for name and creates session
 - `prefix + c`<br/>
   creates new window
-- `prefix + |`<br/>
+- `prefix + s`<br/>
   split current pane horizontally
-- `prefix + -`<br/>
+- `prefix + v`<br/>
   split current pane vertically
-- `prefix + \`<br/>
+- `prefix + |`<br/>
   split current pane full width horizontally
-- `prefix + _`<br/>
+- `prefix + -`<br/>
   split current pane full width vertically
 
 Newly created panes always have the same path and NVIM_LISTEN_ADDRESS as the original pane.
